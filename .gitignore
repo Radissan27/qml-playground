@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,visualstudio,qt,qtcreator,qml,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,visualstudiocode,visualstudio,qt,qtcreator,qml,windows
+# Created by https://www.toptal.com/developers/gitignore/api/qt,c++,qml,windows,qtcreator,visualstudio,visualstudiocode,cmake
+# Edit at https://www.toptal.com/developers/gitignore?templates=qt,c++,qml,windows,qtcreator,visualstudio,visualstudiocode,cmake
 
 ### C++ ###
 # Prerequisites
@@ -34,6 +34,24 @@
 *.exe
 *.out
 *.app
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+build
+
+### CMake Patch ###
+# External projects
+*-prefix/
 
 ### QML ###
 # Cached binary representations of QML and JS files
@@ -78,7 +96,6 @@ target_wrapper.*
 CMakeLists.txt.user*
 
 # QtCreator 4.8< compilation database
-compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
@@ -550,4 +567,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,visualstudio,qt,qtcreator,qml,windows
+# End of https://www.toptal.com/developers/gitignore/api/qt,c++,qml,windows,qtcreator,visualstudio,visualstudiocode,cmake
