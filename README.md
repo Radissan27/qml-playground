@@ -1,4 +1,6 @@
 # QML-Playground
+### Projects list
+- [Circular Progress Bar](https://github.com/Radissan27/QML-Playground/tree/master/circular-progress-bar/App)
 ### Setup
 - Install Qt (the open source version) via Qt Online Installer from this [link](https://www.qt.io/download-open-source)
     - :exclamation:Make sure to also download the MinGW compiler, don't be [this](https://www.reddit.com/r/QtFramework/comments/1ao5imr/help_with_linking_qt6_to_my_cmake_project/) guy :laughing:
