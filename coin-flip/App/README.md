@@ -1,2 +1,2 @@
-# Circular Progress Bar
-![GIF not found](/resources/CoinFlip.gif)
+# Coin Flip
+![GIF not found](./resources/CoinFlip.gif)
