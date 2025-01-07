@@ -4,7 +4,7 @@
 - [Coin Flip](https://github.com/Radissan27/QML-Playground/tree/master/coin-flip/App)
 ### Setup
 - Install Qt (the open source version) via Qt Online Installer from this [link](https://www.qt.io/download-open-source)
-    - :exclamation:Make sure to also download the MinGW compiler, don't be [this](https://www.reddit.com/r/QtFramework/comments/1ao5imr/help_with_linking_qt6_to_my_cmake_project/) guy :laughing:
+    - :exclamation:Make sure to also download the MinGW compiler
 - Install VS Code
   - also install relevant plugins for C++, CMake, QML etc.
 - Add Qt MingW compiler to VS Code kits
