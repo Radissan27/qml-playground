@@ -1,16 +1,19 @@
-# QML-Playground
-### Projects list
+# qml-playground
+## Projects list
 - [Circular Progress Bar](https://github.com/Radissan27/QML-Playground/tree/master/circular-progress-bar/App)
 - [Coin Flip](https://github.com/Radissan27/QML-Playground/tree/master/coin-flip/App)
-### Setup
+<br/>
+
+## Setup
 - Install Qt (the open source version) via Qt Online Installer from this [link](https://www.qt.io/download-open-source)
     - :exclamation:Make sure to also download the MinGW compiler
 - Install VS Code
   - also install relevant plugins for C++, CMake, QML etc.
 - Add Qt MingW compiler to VS Code kits
   - CTRL + SHIFT + P > Open Settings (UI) > Cmake: Additional Compiler Search Dirs > Add Item > \<path-to-Qt-install-location\>\Tools\mingwXXXX_64 > Ok
+<br/>
 
-### How to create a project
+## How to create a project
 I haven't figured out how to work with CMake settings regarding Qt in order to add my QML files so the only way to create a project is via Qt Creator as follows:
 1. Create Project
 2. Projects: Application(Qt) | Qt Quick Application
